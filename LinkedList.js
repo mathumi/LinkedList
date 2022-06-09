@@ -91,6 +91,26 @@ class LinkedList {
     this.length = this.length + 1;
     return this;
   }
+
+  indexOf(element) {
+    let index = -1;
+    if (this.head === null) {
+      return index;
+    }
+    let current = this.head;
+    while (current != null) {
+      index++;
+      if(current.data === element) {
+        break;
+      }
+      current = current.next;
+    }
+    if(current === null) {
+      index = -1;
+    }
+    return index;
+  }
+  
   join(separator) {
     if (this.head === null) {
       return "";
