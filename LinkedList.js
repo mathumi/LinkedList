@@ -12,10 +12,10 @@ class LinkedList {
     if (element === undefined || element === null) {
       return this;
     }
+    const tail = new Node(element, null);
     if (this.head === null) {
-      this.head = new Node(element, null);
+      this.head = tail;
     } else {
-      const tail = new Node(element);
       let current = this.head;
       while (current.next != null) {
         current = current.next;
