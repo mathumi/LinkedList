@@ -37,6 +37,7 @@ The Linkedlist can be represented as an object like below,
 ## Application
 Linkedlist can be implemented in the data structure that doesn't know the required memory allocation. For example, Music play list, Infinite scrolling, Image carousels.
 
+## Operations
 In this repo, the following operations are implemented in singly linkedlist
 1. **Push** - Appends an element to the list
 2. **InsertAt** - Inserts an element in the given position
