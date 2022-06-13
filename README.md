@@ -7,7 +7,7 @@ Each node consists of data and pointer to next/prev node.
 2. doubly linkedlist
 3. Circly linkedlist
 
-Singly linkedlist looks like the below,
+Singly linkedlist looks like below,
 
 <img width="781" alt="image" src="https://user-images.githubusercontent.com/17009300/173416283-0a4327a9-cb35-481f-a365-04167248c14e.png">
 
@@ -26,10 +26,11 @@ The Linkedlist can be represented as an object like below,
   }
 }
 ```
+
 ## Properties
 1. Unlike arrays, Nodes are not stored in contiguous memory locations.
-2. Unike arrays, the linkedlist doesn't have fixed memory size. so, the length of the linkedlist may increase or decrease based on the program execution.
-3. It requires more memory than Arrays as it stores both data and pointer.
+2. Unike arrays, the linkedlist doesn't have fixed memory size. so, the length of the linkedlist may increase or decrease during the program execution.
+3. It requires more memory than Array as it stores both data and pointer.
 4. The first element of the linkedlist is called `head`.
 5. The last element of the linkedlist is called `tail`.
 
