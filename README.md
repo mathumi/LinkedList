@@ -46,3 +46,14 @@ In this repo, the following operations are implemented in singly linkedlist
 5. **Pop** - Removes the last element of the list
 6. **Shift** - Removes the first element of the list
 7. **Unshift** - Inserts an element in the beginning of the list
+
+
+### Example
+```js
+const linkedList = new LinkedList();
+linkedList.push(10).push(100);
+linkedList.unshift(200);
+linkedList.insertAt(1, 50);
+linkedList.shift().pop();
+linkedList.join(", ");
+```
